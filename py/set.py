@@ -9,8 +9,6 @@ for pckgs in ['pandas','xlsxwriter','xlrd','json', 'shutup', 'glob']:
 
 import pandas as pd
 import json
-import shutil
-import openpyxl as pxl
 import shutup
 from glob import glob
 
@@ -45,6 +43,6 @@ if os.path.exists(filename):
             data['label'] = new_labels[n]
             
             with open(config_dir, 'w') as f:
-                json.dump(data, f)
+                json.dump(data, f, indent=2)
     else:
         print("No entries to update... Nothing to do here. :)")

@@ -9,8 +9,6 @@ for pckgs in ['pandas','xlsxwriter','xlrd','json', 'shutup', 'glob']:
 
 import pandas as pd
 import json
-import shutil
-import openpyxl as pxl
 import shutup
 from glob import glob
 
