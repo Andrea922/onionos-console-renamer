@@ -1,7 +1,7 @@
 # Import all the relevant libraries, try downloading them if missing
 import importlib,os
 
-for pckgs in ['pandas','xlsxwriter','xlrd','json', 'shutup', 'glob']:
+for pckgs in ['pandas','xlsxwriter','xlrd','json','openpyxl', 'shutup', 'glob']:
     try:
         importlib.import_module(pckgs)
     except (ImportError,ModuleNotFoundError):
@@ -10,6 +10,7 @@ for pckgs in ['pandas','xlsxwriter','xlrd','json', 'shutup', 'glob']:
 import pandas as pd
 import json
 import shutup
+import openpyxl
 from glob import glob
 
 shutup.please()
