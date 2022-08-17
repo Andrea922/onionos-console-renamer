@@ -4,7 +4,7 @@ It was specifically written for [Onion OS](https://github.com/OnionUI).
 
 ## Usage
 0. Backup your Emu folder, first!
-1. Download the zip file
+1. Download the [zip file](https://github.com/Andrea922/onionos-console-renamer/archive/refs/heads/master.zip)
 2. Extract the `onionos-console-renamer-master` folder in the Emu folder of your Onion OS
 3. Run the `get.bat` (or `python py/get.py`) to get the console names
 4. A `data.xlsx` file will be generated in the root of `onionos-console-renamer-master` folder; there, in the New_label column you will set the new names for the consoles; leave blank where not needed
