@@ -47,3 +47,5 @@ if os.path.exists(filename):
                 json.dump(data, f, indent=2)
     else:
         print("No entries to update... Nothing to do here. :)")
+else:
+    print("No",filename,"found. Aborting operation.")
